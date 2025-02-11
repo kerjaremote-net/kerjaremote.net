@@ -1,0 +1,59 @@
+[
+  {
+    "description": "Create online presentations for any event. Effortlessly design, customize, and share visually appealing slides to captivate your audience.",
+    "favicon": "https://static.figma.com/app/icon/1/favicon.ico",
+    "image": "https://cdn.sanity.io/images/599r6htc/regionalized/b07a7378e4af476668b732a6e70deec32851c5dc-2400x1260.png?w=1200&q=70&fit=max&auto=format",
+    "title": "Free Online Presentation Maker & Creator | Figma",
+    "url": "https://www.figma.com/presentation-maker/",
+    "tags": [
+      "saas",
+      "course",
+      "talent",
+      "ebook",
+      "development"
+    ],
+    "lastReviewAt": "December 20, 2024"
+  },
+  {
+    "description": "The only presentation software you'll ever need. Easily create beautiful slides online with free custom presentation templates and a massive media library.",
+    "favicon": "https://static.canva.com/static/images/android-192x192-2.png",
+    "image": "https://content-management-files.canva.com/9014ee8f-b284-4ce3-a031-a642d72f0a28/ogimage_presentations.jpg",
+    "title": "Presentations and slides for any occasion | Canva",
+    "url": "https://www.canva.com/presentations/",
+    "tags": [
+      "service",
+      "general",
+      "talent",
+      "ebook",
+      "development"
+    ],
+    "lastReviewAt": "December 20, 2024"
+  },
+  {
+    "description": "Simply focus on your content — Pithy Point takes care of the rest.",
+    "favicon": "https://pithypoint.com/favicon.ico",
+    "image": "https://pithypoint.com/featured_banner.png",
+    "title": "Pithy Point - Just Your Data, Instantly Presented",
+    "url": "https://pithypoint.com",
+    "tags": [
+      
+      "content",
+      "ebook"
+    ],
+    "lastReviewAt": "December 20, 2024"
+  },
+  {
+    "description": "Welcome to Prezi, the presentation software that uses motion, zoom, and spatial relationships to bring your ideas to life and make you a great presenter.",
+    "favicon": "https://assets.prezicdn.net/assets-versioned/coverservice-versioned/4557-fdf0f36/common/img/favicon.ico?v=2",
+    "image": "https://assets.prezicdn.net/assets-versioned/coverservice-versioned/4557-fdf0f36/coverservice/webflow/images/Hero-06-2x.png",
+    "title": "Presentations and videos with engaging visuals for hybrid teams | Prezi Present",
+    "url": "https://prezi.com/",
+    "tags": [
+      "service",
+      "talent",
+      
+      "free trial"
+    ],
+    "lastReviewAt": "December 20, 2024"
+  }
+]
