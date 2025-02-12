@@ -11,28 +11,17 @@ import { Globe } from "lucide-react";
 ---
 
 <Layout>
-  <!-- Tambahkan button warna hitam yg bagus -->
-  <div class="fixed right-4 top-4 z-50">
-    <Button variant="default" className="bg-black text-white hover:bg-gray-800">
-      Submit Website
-    </Button>
-  </div>
   <main class="flex min-h-screen flex-col">
-    <!-- <Navbar client:load /> -->
-    <section
-      class="container z-10 mx-auto -mb-32 flex max-w-6xl flex-col px-4 py-16 md:px-8"
-    >
-      <div class="flex flex-col items-end gap-8 md:flex-row md:gap-16">
-        <div class="col-span-2 flex flex-1 flex-col">
-          <h1 class="mb-6 text-4xl leading-tight">
+    <section class="container z-10 mx-auto flex max-w-6xl flex-col px-6 pt-24 md:pt-28 md:px-8">
+      <div class="flex flex-col gap-8 md:flex-row md:gap-12">
+        <div class="w-full flex flex-1 flex-col">
+          <h1 class="mb-8 text-3xl md:text-4xl leading-tight">
             <strong>Kerja Remote Network</strong><br />
-            <span class="font-light">Anything you need about remote work</span>
+            <span class="font-light text-gray-600 dark:text-gray-300">Anything you need about remote work</span>
           </h1>
-          <Search client:load className="w-full" />
+          <Search client:load className="w-full max-w-2xl" />
         </div>
-        <div
-          class="flex aspect-video w-96 max-w-full items-center justify-center rounded border border-dashed bg-background shadow overflow-hidden"
-        >
+        <div class="w-full md:w-[400px] aspect-video rounded-lg border bg-background overflow-hidden">
           <a href="https://aipedia.pro" target="_blank" class="block w-full h-full">
             <div class="relative flex flex-col items-center justify-center h-full bg-gradient-to-br from-gray-50 to-white hover:from-gray-100 hover:to-gray-50 transition-all duration-300">
               <img 
@@ -40,9 +29,9 @@ import { Globe } from "lucide-react";
                 alt="AIpedia.pro Featured Banner" 
                 class="absolute inset-0 w-full h-full object-cover"
               />
-              <div class="relative z-10 p-4 text-center bg-white/80 backdrop-blur-sm w-full">
+              <div class="relative z-10 p-4 text-center bg-white/90 backdrop-blur-sm w-full">
                 <span class="font-medium text-lg block">AIpedia.pro</span>
-                <span class="text-sm text-muted-foreground">Your AI Tools Directory</span>
+                <span class="text-sm text-gray-600 dark:text-gray-400">Your AI Tools Directory</span>
               </div>
             </div>
           </a>
@@ -50,14 +39,18 @@ import { Globe } from "lucide-react";
       </div>
     </section>
     <section
-      class="to-red h-32 bg-gradient-to-b from-white to-muted dark:from-black dark:to-muted"
+      class="to-red h-8 bg-gradient-to-b from-white to-muted dark:from-black dark:to-muted"
     >
     </section>
     <section class={cn("flex-1 bg-muted")}>
-      <ListTags client:load />
+      <div class="container mx-auto max-w-6xl px-6 md:px-8">
+        <ListTags client:load />
+      </div>
     </section>
     <section class={cn("flex-1 bg-muted pb-4 md:pb-12")}>
-      <ListWebsites client:load />
+      <div class="container mx-auto max-w-6xl px-6 md:px-8">
+        <ListWebsites client:load />
+      </div>
     </section>
     <footer class="pb-32 pt-4 md:pb-8 md:pt-8">
       <div class="container mx-auto px-4 text-sm md:px-0">

@@ -1,10 +1,11 @@
 ---
 import { cn } from "@/lib/utils";
+import Nav from '@/components/Nav';
 
 const title =
-  "Placeholder title of your website";
+  "Kerja Remote Network";
 const description =
-  "Placeholder description of your website";
+  "Kerja Remote Network List Directory";
 const url = "https://placeholder.com";
 const image = "/public/preview.webp";
 ---
@@ -39,8 +40,8 @@ const image = "/public/preview.webp";
         "@context": "http://schema.org",
         "@type": "WebSite",
         "url": "https://placeholder.com",
-        "name":   "Placeholder title of your website",
-        "description": "Placeholder title of your website"
+        "name":   "Kerjaremote.net",
+        "description": "Kerja Remote Network Directory"
       }
     </script>
 
@@ -53,7 +54,7 @@ const image = "/public/preview.webp";
         ) {
           return localStorage.getItem("theme");
         }
-        return window.matchMedia("(prefers-color-scheme: dark)").matches
+        return window.matchMedia("(prefers-color-scheme: light)").matches
           ? "dark"
           : "light";
       };
@@ -73,6 +74,7 @@ const image = "/public/preview.webp";
     </script>
   </head>
   <body class={cn("bg-background font-sans text-primary")}>
+    <Nav client:load />
     <slot />
   </body>
 </html>
