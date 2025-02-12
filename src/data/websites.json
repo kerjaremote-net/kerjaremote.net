@@ -1,5 +1,16 @@
 [
   {
+    "description": "E-book tulisan bapakkerjaremote soal kerja remote dan proses pencariannya",
+    "favicon": "/images/rwhg.png",
+    "image": "/images/rwhg.png",
+    "title": "Remote Work Hunting Guide",
+    "url": "https://www.aipedia.pro/",
+    "tags": [
+      "ebook"
+    ],
+    "lastReviewAt": "January 20, 2025"
+  },
+  {
     "description": "Just like ChatGPT, but with Multi-Model at a More Affordable Price. AI Pedia offers flexible AI solutions, include Claude and GPT-4, for all your techincal, creative and research needs with more affordable pricing.",
     "favicon": "https://www.aipedia.pro/favicons/favicon-32x32.png",
     "image": "https://cdn.sanity.io/images/599r6htc/regionalized/b07a7378e4af476668b732a6e70deec32851c5dc-2400x1260.png?w=1200&q=70&fit=max&auto=format",
