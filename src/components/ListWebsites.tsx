@@ -34,33 +34,36 @@ export default function ListWebsites() {
         <a
           key={website.url}
           className={cn(
-            "rounded bg-background p-4 shadow",
+            "rounded-lg bg-background p-4 shadow",
             "flex flex-col gap-4",
+            "hover:shadow-md transition-all hover:bg-background/80"
           )}
           href={website.url}
           target="_blank"
         >
-          <div className="flex gap-2">
-            <div className="h-12 w-12 bg-muted p-2">
+          <div className="flex gap-3">
+            <div className="h-20 w-20 overflow-hidden rounded-lg bg-muted p-2.5">
               <img
                 src={
                   website.favicon ||
                   "https://placehold.co/400?text=No%20Picture"
                 }
                 alt={website.title}
-                className="aspect-square w-full rounded object-cover"
+                className="aspect-square h-full w-full rounded-md object-cover"
               />
             </div>
-            <p className="flex-1 text-sm font-semibold">{website.title}</p>
+            <p className="flex-1 text-base font-medium leading-snug">{website.title}</p>
           </div>
-          <div className="flex flex-1 flex-col justify-between gap-2">
-            <div className="flex flex-col gap-1">
-              <p className="line-clamp-3 text-xs text-muted-foreground">
+          <div className="flex flex-1 flex-col justify-between gap-3">
+            <div className="flex flex-col gap-2">
+              <p className="line-clamp-3 text-sm text-muted-foreground">
                 {website.description}
               </p>
-              <div className="flex flex-wrap gap-1">
+              <div className="flex flex-wrap gap-1.5">
                 {website.tags.map((tag) => (
-                  <Badge className="px-1 py-0">{tag}</Badge>
+                  <Badge key={tag} variant="secondary" className="px-2 py-0.5 text-xs">
+                    {tag}
+                  </Badge>
                 ))}
               </div>
             </div>
