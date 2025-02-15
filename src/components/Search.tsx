@@ -38,7 +38,7 @@ export default function Search({ className }: { className?: string }) {
         <Input
           placeholder="Enter something..."
           value={search}
-          className="h-12 w-full bg-background pl-12 text-sm border-2 shadow-none md:h-16 md:text-lg focus-visible:ring-0 focus-visible:ring-offset-0"
+          className="h-10 w-full bg-background pl-12 text-sm border-2 shadow-none md:h-12 md:text-base focus-visible:ring-0 focus-visible:ring-offset-0"
           onChange={(e) => setSearch(e.target.value)}
           onKeyUp={(event) => {
             if (event.key === "Enter" || event.keyCode === 13) {
@@ -49,24 +49,24 @@ export default function Search({ className }: { className?: string }) {
         <a
           onClick={onClear}
           className={cn(
-            "absolute right-4 top-1 z-10 translate-y-[50%] md:top-2",
+            "absolute right-4 top-0.5 z-10 translate-y-[50%] md:top-1",
             "cursor-pointer text-muted-foreground opacity-0 transition-all",
             search !== "" && "opacity-100",
           )}
         >
-          <XCircle className="size-5 md:size-6" />
+          <XCircle className="size-4 md:size-5" />
         </a>
         <SearchIcon
           className={cn(
-            "absolute left-4 top-1 translate-y-[50%] md:top-2",
-            "size-5 cursor-pointer text-muted-foreground/20 md:size-6",
+            "absolute left-4 top-0.5 translate-y-[50%] md:top-1",
+            "size-4 cursor-pointer text-muted-foreground/20 md:size-5",
           )}
         />
       </div>
       <Button
         variant={isDark ? "secondary" : "default"}
         className={cn(
-          "h-12 w-32 text-sm font-light md:h-16 md:text-lg",
+          "h-10 w-32 text-sm font-light md:h-12 md:text-base",
         )}
         onClick={() => onClickSearch()}
       >
