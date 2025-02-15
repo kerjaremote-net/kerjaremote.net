@@ -30,7 +30,7 @@ export default function WebsiteDetailModal({
 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-2xl">
+      <DialogContent className="max-h-[90vh] overflow-y-auto max-w-2xl">
         <DialogHeader>
           <DialogTitle className="text-xl">{website.title}</DialogTitle>
         </DialogHeader>
