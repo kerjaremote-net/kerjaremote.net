@@ -38,7 +38,7 @@ export default function Search({ className }: { className?: string }) {
         <Input
           placeholder="Enter something..."
           value={search}
-          className="h-12 w-full bg-background pl-12 text-sm shadow-lg md:h-16 md:text-lg"
+          className="h-12 w-full bg-background pl-12 text-sm border-2 shadow-none md:h-16 md:text-lg focus-visible:ring-0 focus-visible:ring-offset-0"
           onChange={(e) => setSearch(e.target.value)}
           onKeyUp={(event) => {
             if (event.key === "Enter" || event.keyCode === 13) {
@@ -66,7 +66,7 @@ export default function Search({ className }: { className?: string }) {
       <Button
         variant={isDark ? "secondary" : "default"}
         className={cn(
-          "h-12 w-32 text-sm font-light shadow-lg md:h-16 md:text-lg",
+          "h-12 w-32 text-sm font-light md:h-16 md:text-lg",
         )}
         onClick={() => onClickSearch()}
       >
