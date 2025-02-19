@@ -12,7 +12,7 @@ export default function Nav() {
             </a>
             <div className="hidden md:flex items-center gap-4">
               {/* <a href="/jobs" className="text-sm hover:text-gray-600">Remote Jobs</a> */}
-              <a href="https://remote.myr.id" className="text-sm hover:text-gray-600">Resources</a>
+              <a href="https://remote.myr.id" target="_blank" className="text-sm hover:text-gray-600">Resources</a>
               {/* <a href="/tools" className="text-sm hover:text-gray-600">Tools</a> */}
               {/* <a href="/learn" className="text-sm hover:text-gray-600">Learn</a> */}
             </div>
