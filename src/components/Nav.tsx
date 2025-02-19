@@ -18,6 +18,9 @@ export default function Nav() {
             </div>
           </div>
           <div className="flex items-center gap-3">
+            <a href="https://remote.myr.id" target="_blank">
+              <Button variant="ghost" size="sm">Resources</Button>
+            </a>
             <a href="https://discord.gg/Gsn2rKHe" target="_blank">
               <Button variant="ghost" size="sm" className="gap-2">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
