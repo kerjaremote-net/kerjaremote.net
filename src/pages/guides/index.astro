@@ -1,9 +1,10 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import "@/styles/globals.css";
 import { Button } from "@/components/ui/button";
 import { getCollection } from "astro:content";
 import { ArrowRight, Globe } from "lucide-react";
+import copy from "@/data/copy.json";
+import "@/styles/globals.css";
 
 const allGuides = await getCollection("guides");
 const sortedGuides = allGuides.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -11,23 +12,16 @@ const sortedGuides = allGuides.sort((a, b) => b.data.pubDate.valueOf() - a.data.
 const featuredGuide = sortedGuides.find(guide => guide.data.featured) || sortedGuides[0];
 const otherGuides = sortedGuides.filter(guide => guide.slug !== featuredGuide.slug);
 
-const categories = [
-  "All",
-  "Remote Career",
-  "AI for Remote Work",
-  "Productivity & Tools",
-  "Portfolio & Branding",
-  "Client Acquisition"
-];
+const categories = copy.guides.categories;
 ---
 
 <Layout>
   <main class="flex min-h-screen flex-col pt-24">
     <div class="container mx-auto px-6 md:px-8 max-w-6xl pb-16">
       <div class="mb-12">
-        <h1 class="text-4xl font-bold mb-4">Guides & Resources</h1>
+        <h1 class="text-4xl font-bold mb-4">{copy.guides.title}</h1>
         <p class="text-muted-foreground text-lg max-w-2xl">
-          Panduan lengkap untuk membangun karir remote, meningkatkan produktivitas dengan AI, dan mencapai kebebasan finansial.
+          {copy.guides.subtitle}
         </p>
       </div>
 
@@ -48,7 +42,7 @@ const categories = [
       {featuredGuide && (
         <div class="mb-16">
           <a href={`/guides/${featuredGuide.slug}`} class="group block">
-            <div class="grid md:grid-cols-2 gap-8 items-center bg-muted/30 rounded-2xl border overflow-hidden hover:shadow-lg transition-all duration-300">
+            <div class="grid md:grid-cols-2 gap-8 items-center bg-muted/30 rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300">
               <div class="aspect-video md:aspect-[4/3] w-full overflow-hidden">
                 <img 
                   src={featuredGuide.data.image} 
@@ -72,7 +66,7 @@ const categories = [
                   {featuredGuide.data.description}
                 </p>
                 <div class="flex items-center text-primary font-medium">
-                  Baca Selengkapnya <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  {copy.guides.readMore} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>
             </div>
@@ -84,7 +78,7 @@ const categories = [
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {otherGuides.map((guide) => (
           <a href={`/guides/${guide.slug}`} class="group flex flex-col h-full">
-            <div class="bg-background rounded-xl border overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full">
+            <div class="bg-background rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full">
               <div class="aspect-video overflow-hidden">
                 <img 
                   src={guide.data.image} 
@@ -115,13 +109,13 @@ const categories = [
     </div>
 
     <footer class="pb-32 pt-16 md:pb-8 md:pt-16 border-t mt-auto">
-      <div class="container mx-auto px-6 text-sm">
+      <div class="container mx-auto px-6 md:px-8 max-w-6xl text-sm">
         <div class="flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="flex flex-col gap-2">
                 <p class="text-muted-foreground">
-                    Brought to you by <a class="underline hover:text-primary" href="https://kerjaremote.net" target="_blank">@kerjaremote_net</a>
+                    {copy.footer.broughtToYouBy} <a class="underline hover:text-primary" href="https://kerjaremote.net" target="_blank">@kerjaremote_net</a>
                 </p>
-                <a href="/about" class="text-muted-foreground hover:text-primary underline">Submit as Author</a>
+                <a href="/about" class="text-muted-foreground hover:text-primary underline">{copy.footer.submitAsAuthor}</a>
             </div>
              <div class="flex items-center gap-2">
                 <a href="https://kerjaremote.net" target="_blank">
@@ -165,3 +159,4 @@ const categories = [
     </footer>
   </main>
 </Layout>
+

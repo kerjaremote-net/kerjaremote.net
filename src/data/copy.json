@@ -1,0 +1,173 @@
+{
+    "nav": {
+        "title": "KerjaRemote.net",
+        "links": {
+            "tools": "Tools",
+            "guides": "Guides",
+            "remoteKits": "Remote Kits"
+        },
+        "resources": "Resources",
+        "submit": "Submit Website"
+    },
+    "footer": {
+        "broughtToYouBy": "Brought to you by",
+        "submitAsAuthor": "Submit as Author"
+    },
+    "guides": {
+        "title": "Guides & Resources",
+        "subtitle": "Panduan lengkap untuk membangun karir remote, meningkatkan produktivitas dengan AI, dan mencapai kebebasan finansial.",
+        "categories": [
+            "All",
+            "Remote Career",
+            "AI for Remote Work",
+            "Productivity & Tools",
+            "Portfolio & Branding",
+            "Client Acquisition"
+        ],
+        "readMore": "Baca Selengkapnya",
+        "softCta": {
+            "title": "Siap untuk Memulai Karir Remote?",
+            "description": "Dapatkan akses ke tools, template, dan panduan eksklusif untuk mempercepat perjalanan karir remote Anda dengan Remote Kits.",
+            "button": "Lihat Remote Kits"
+        }
+    },
+    "remoteKits": {
+        "hero": {
+            "badge": "🚀 Solusi All-in-One Kerja Remote",
+            "title": "Dari Nol Sampai",
+            "titleHighlight": "Siap Kerja Remote",
+            "description": "Dapatkan akses ke tools, panduan, dan resource terbaik untuk membangun karir remote yang sukses dan stabil.",
+            "ctaPrimary": "Dapatkan Akses Sekarang",
+            "ctaSecondary": "Lihat Demo"
+        },
+        "whatsInside": {
+            "title": "Apa yang Anda Dapatkan?",
+            "features": [
+                {
+                    "title": "GPT Samples",
+                    "description": "Akses ke custom GPT yang dirancang khusus untuk produktivitas kerja remote."
+                },
+                {
+                    "title": "Prompt Library",
+                    "description": "Kumpulan prompt teruji untuk berbagai kebutuhan, dari coding hingga marketing."
+                },
+                {
+                    "title": "Templates & Roadmaps",
+                    "description": "Template dokumen dan roadmap karir yang siap pakai untuk mempercepat progress Anda."
+                }
+            ]
+        },
+        "testimonials": {
+            "title": "Kata Mereka",
+            "items": [
+                {
+                    "name": "Budi Santoso",
+                    "role": "Freelance Developer",
+                    "content": "Remote Kits mengubah cara saya bekerja. Produktivitas meningkat 2x lipat!"
+                },
+                {
+                    "name": "Siti Aminah",
+                    "role": "Content Writer",
+                    "content": "Panduan dan prompt-nya sangat membantu saya mendapatkan klien internasional pertama."
+                }
+            ]
+        },
+        "pricing": {
+            "title": "Pilih Paket Anda",
+            "description": "Investasi terbaik untuk masa depan karir Anda. Bayar sekali, akses selamanya.",
+            "plans": [
+                {
+                    "name": "Starter",
+                    "price": "Rp 149.000",
+                    "description": "Untuk pemula yang ingin memulai karir remote.",
+                    "features": [
+                        "Akses ke 5 Basic GPTs",
+                        "50+ Prompt Library",
+                        "Basic Templates",
+                        "Community Access"
+                    ],
+                    "cta": "Beli Starter"
+                },
+                {
+                    "name": "Pro",
+                    "price": "Rp 299.000",
+                    "description": "Paket lengkap untuk profesional remote.",
+                    "features": [
+                        "Akses ke Semua 18 Premium GPTs",
+                        "Unlimited Prompt Library",
+                        "Advanced Roadmaps & Templates",
+                        "Priority Support",
+                        "Lifetime Updates"
+                    ],
+                    "cta": "Beli Pro"
+                }
+            ]
+        },
+        "faq": {
+            "title": "Pertanyaan Umum",
+            "items": [
+                {
+                    "q": "Apakah ini cocok untuk pemula?",
+                    "a": "Ya, Remote Kits dirancang untuk semua level, dari pemula hingga profesional."
+                },
+                {
+                    "q": "Bagaimana cara aksesnya?",
+                    "a": "Setelah pembayaran, Anda akan mendapatkan akses instan ke dashboard member."
+                },
+                {
+                    "q": "Apakah ada garansi uang kembali?",
+                    "a": "Kami menawarkan garansi 7 hari uang kembali jika Anda tidak puas."
+                }
+            ]
+        },
+        "finalCta": {
+            "title": "Siap Mengubah Karir Anda?",
+            "description": "Bergabunglah dengan ribuan pekerja remote lainnya yang telah sukses dengan bantuan Remote Kits.",
+            "button": "Mulai Sekarang"
+        }
+    },
+    "about": {
+        "header": {
+            "title": "Tentang KerjaRemote.net",
+            "description": "Membangun ekosistem kerja remote terbaik untuk talenta Indonesia."
+        },
+        "mission": {
+            "title": "Misi Kami",
+            "p1": "KerjaRemote.net hadir dengan satu tujuan sederhana: <strong>Membimbing talenta Indonesia dari \"tidak tahu arah\" menjadi \"siap kerja remote\" hingga \"mandiri secara finansial\".</strong>",
+            "p2": "Kami percaya bahwa kesempatan kerja global harus bisa diakses oleh siapa saja, di mana saja. Melalui panduan, tools, dan komunitas, kami ingin menjembatani kesenjangan skill dan peluang bagi jutaan orang Indonesia."
+        },
+        "story": {
+            "title": "Kenapa Kami Ada?",
+            "p1": "Dunia kerja sedang berubah drastis. AI dan remote work bukan lagi masa depan, tapi masa kini. Kami melihat banyak talenta hebat yang tertinggal hanya karena kurangnya akses informasi dan mentorship yang tepat.",
+            "p2": "KerjaRemote.net adalah jawaban kami untuk tantangan tersebut. Sebuah hub sentral untuk belajar, berkembang, dan sukses di era digital."
+        },
+        "values": {
+            "title": "Nilai Kami",
+            "items": [
+                {
+                    "title": "Indonesian First",
+                    "description": "Konten disesuaikan dengan konteks dan kebutuhan lokal."
+                },
+                {
+                    "title": "Practicality",
+                    "description": "Fokus pada hal yang bisa langsung diterapkan, bukan teori semata."
+                },
+                {
+                    "title": "Community Driven",
+                    "description": "Tumbuh bersama komunitas, saling bantu dan berbagi."
+                }
+            ]
+        },
+        "connect": {
+            "title": "Terhubung Dengan Kami",
+            "website": "Website",
+            "twitter": "Twitter",
+            "email": "Email"
+        },
+        "ctaAuthor": {
+            "title": "Ingin Berkontribusi?",
+            "description": "Bagikan pengalaman dan keahlian Anda kepada ribuan pembaca kami. Jadilah bagian dari perubahan.",
+            "button": "Submit as Author"
+        }
+    }
+}
