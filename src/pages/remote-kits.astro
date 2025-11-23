@@ -41,7 +41,7 @@ const faqs = copy.remoteKits.faq.items;
         <Button size="lg" className="gap-2 bg-[linear-gradient(180deg,#454545_0%,#000000_50%,#454545_100%)] text-white hover:opacity-90 border-none btn-3d-black rounded-xl">
           {copy.remoteKits.hero.ctaPrimary} <ArrowRight className="w-4 h-4" />
         </Button>
-        <Button size="lg" className="px-6 font-bold mt-auto bg-[linear-gradient(180deg,#ffffff_0%,#d4d4d4_50%,#ffffff_100%)] text-black hover:opacity-90 border-none btn-3d-white rounded-xl">
+        <Button size="lg" className="px-6 font-bold mt-auto bg-white text-black hover:opacity-90 border-none btn-3d-white rounded-xl">
           {copy.remoteKits.hero.ctaSecondary}
         </Button>
       </div>
@@ -53,7 +53,7 @@ const faqs = copy.remoteKits.faq.items;
         <h2 class="text-3xl font-bold text-center mb-16">{copy.remoteKits.whatsInside.title}</h2>
         <div class="grid md:grid-cols-3 gap-8">
           {features.map((feature) => (
-            <div class="bg-background p-8 rounded-lg border shadow-sm hover:shadow-md transition-all">
+            <div class="bg-white p-8 rounded-lg border shadow-sm hover:shadow-md transition-all">
               <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6">
                 <feature.icon className="w-6 h-6" />
               </div>
@@ -71,7 +71,7 @@ const faqs = copy.remoteKits.faq.items;
         <h2 class="text-3xl font-bold text-center mb-16">{copy.remoteKits.testimonials.title}</h2>
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((t) => (
-            <div class="bg-muted/30 p-8 rounded-lg border">
+            <div class="bg-white p-8 rounded-lg border">
               <div class="flex gap-1 text-yellow-500 mb-4">
                 {[1,2,3,4,5].map(() => <Star className="w-4 h-4 fill-current" />)}
               </div>
@@ -98,7 +98,7 @@ const faqs = copy.remoteKits.faq.items;
         </p>
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {pricing.map((plan) => (
-            <div class={`relative bg-background rounded-lg border p-8 flex flex-col ${plan.popular ? 'border-primary shadow-lg ring-1 ring-primary' : 'shadow-sm'}`}>
+            <div class={`relative bg-white rounded-lg border p-8 flex flex-col ${plan.popular ? 'border-primary shadow-lg ring-1 ring-primary' : 'shadow-sm'}`}>
               {plan.popular && (
                 <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium">
                   Most Popular

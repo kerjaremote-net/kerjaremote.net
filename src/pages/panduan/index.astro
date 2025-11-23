@@ -42,7 +42,7 @@ const categories = copy.panduan.categories;
       {featuredGuide && (
         <div class="mb-16">
           <a href={`/panduan/${featuredGuide.slug}`} class="group block">
-            <div class="grid md:grid-cols-2 gap-8 items-center bg-muted/30 rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300">
+            <div class="grid md:grid-cols-2 gap-8 items-center bg-white rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300">
               <div class="aspect-video md:aspect-[4/3] w-full overflow-hidden">
                 <img 
                   src={featuredGuide.data.image} 
@@ -78,7 +78,7 @@ const categories = copy.panduan.categories;
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {otherpanduan.map((guide) => (
           <a href={`/panduan/${guide.slug}`} class="group flex flex-col h-full">
-            <div class="bg-background rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full">
+            <div class="bg-white rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full">
               <div class="aspect-video overflow-hidden">
                 <img 
                   src={guide.data.image} 

@@ -48,9 +48,9 @@ export default function ListWebsites() {
           <button
             key={website.url}
             className={cn(
-              "rounded-lg bg-background p-4 shadow text-left",
+              "rounded-lg bg-white p-4 shadow text-left",
               "flex flex-col gap-4",
-              "hover:shadow-md transition-all hover:bg-background/80"
+              "hover:shadow-md transition-all hover:bg-white/80"
             )}
             onClick={() => {
               setSelectedWebsite(website);

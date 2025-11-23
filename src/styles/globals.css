@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 12 17% 97%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 0 0% 3.9%;
@@ -29,6 +30,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -56,10 +58,12 @@
     --chart-5: 340 75% 55%;
   }
 }
+
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -70,6 +74,7 @@
   src: url("/fonts/Geist[wght].ttf") format("truetype");
   font-display: swap;
 }
+
 @font-face {
   font-family: "GeistMono";
   src: url("/fonts/GeistMono[wght].ttf") format("truetype");
@@ -81,14 +86,17 @@
     box-shadow: 0 4px 0 0 #222;
     transition: all 0.1s;
   }
+
   .btn-3d-black:active {
     transform: translateY(4px);
     box-shadow: none;
   }
+
   .btn-3d-white {
-    box-shadow: 0 4px 0 0 #999;
+    box-shadow: 0 4px 0 0 #d4d4d4;
     transition: all 0.1s;
   }
+
   .btn-3d-white:active {
     transform: translateY(4px);
     box-shadow: none;
