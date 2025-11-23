@@ -101,4 +101,9 @@
     transform: translateY(4px);
     box-shadow: none;
   }
+
+  .card-gradient {
+    background: linear-gradient(180deg, #454545 0%, #000000 50%, #454545 100%);
+    color: white;
+  }
 }

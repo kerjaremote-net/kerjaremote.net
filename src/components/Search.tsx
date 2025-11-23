@@ -64,7 +64,7 @@ export default function Search({ className }: { className?: string }) {
         />
       </div>
       <Button
-        variant={isDark ? "secondary" : "default"}
+        variant="premium"
         className={cn(
           "h-10 w-32 text-sm font-light md:h-12 md:text-base",
         )}
