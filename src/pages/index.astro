@@ -1,18 +1,37 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 import websites from "@/data/websites.json";
-import { ArrowRight, Globe } from "lucide-react";
+import { Notebook, BookOpen, Bot, Users, ArrowRight, Globe } from "lucide-react";
 
 const featuredTools = websites.slice(0, 6);
 
 const remoteKits = [
-  { title: "Desk Setup", price: "$199", image: "https://placehold.co/300x200" },
-  { title: "Audio Gear", price: "$99", image: "https://placehold.co/300x200" },
-  { title: "Lighting", price: "$49", image: "https://placehold.co/300x200" },
-  { title: "Ergonomics", price: "$149", image: "https://placehold.co/300x200" },
+  { 
+    title: "Remote Prompt Kit", 
+    description: "Kumpulan prompt siap pakai untuk kerja remote: komunikasi, manajemen tugas, laporan kerja, dan produktivitas.",
+    icon: Notebook,
+    link: "/remote-kits"
+  },
+  { 
+    title: "Remote Prompt Guide",
+    description: "Panduan lengkap memahami apa itu Remote Prompt Kit, cara memakai, dan bagaimana meningkatkan performa kerja remote.",
+    icon: BookOpen,
+    link: "/guides/remote-prompt-guide"
+  },
+  { 
+    title: "Remote Navigator GPT (Free)",
+    description: "Custom GPT gratis untuk membantu mencari pekerjaan remote, menulis cover letter, dan optimasi CV.",
+    icon: Bot,
+    link: "/tools/remote-navigator"
+  },
+  { 
+    title: "Join Community",
+    description: "Gabung komunitas KerjaRemote untuk networking, peluang kerja, diskusi industri digital, dan dukungan karier.",
+    icon: Users,
+    link: "/community"
+  },
 ];
 
 const guides = [
@@ -54,24 +73,23 @@ const guides = [
     </section>
 
     {/* Featured Remote Kits */}
-    <section class="bg-muted/50 py-16">
+    <section class="bg-primary text-primary-foreground py-24">
       <div class="container mx-auto px-6 md:px-8 max-w-6xl">
-        <div class="flex items-center justify-between mb-8">
-            <h2 class="text-2xl font-bold">Featured Remote Kits</h2>
-            <a href="/remote-kits" class="text-primary hover:underline flex items-center gap-1">
-                View all <ArrowRight className="w-4 h-4" />
-            </a>
-        </div>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {remoteKits.map((kit) => (
-                <div class="group relative overflow-hidden rounded-lg bg-background shadow hover:shadow-md transition-all">
-                    <div class="aspect-[4/3] bg-gray-200">
-                        <img src={kit.image} alt={kit.title} class="w-full h-full object-cover" />
+                <div class="flex flex-col items-start group">
+                    <div class="mb-6 p-3 bg-primary-foreground/10 rounded-xl group-hover:bg-primary-foreground/20 transition-colors">
+                        <kit.icon className="w-8 h-8" />
                     </div>
-                    <div class="p-4">
-                        <h3 class="font-semibold">{kit.title}</h3>
-                        <p class="text-sm text-muted-foreground">{kit.price}</p>
-                    </div>
+                    <h3 class="text-xl font-bold mb-3">{kit.title}</h3>
+                    <p class="text-primary-foreground/70 mb-8 leading-relaxed text-sm">
+                        {kit.description}
+                    </p>
+                    <a href={kit.link}>
+                        <Button variant="secondary" className="rounded-full px-6 font-bold mt-auto hover:bg-white/90">
+                            Explore {">"}
+                        </Button>
+                    </a>
                 </div>
             ))}
         </div>
