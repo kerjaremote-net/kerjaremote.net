@@ -11,9 +11,9 @@ export default function Nav() {
               <span className="hidden md:inline">KerjaRemote.net</span>
             </a>
             <div className="hidden md:flex items-center gap-4">
-              <a href="/tools" className="text-sm hover:text-gray-600 dark:hover:text-gray-300">Tools</a>
-              <a href="/guides" className="text-sm hover:text-gray-600 dark:hover:text-gray-300">Guides</a>
-              <a href="/remote-kits" className="text-sm hover:text-gray-600 dark:hover:text-gray-300">Remote Kits</a>
+              <a href="/panduan" className="text-sm mx-md-2 hover:text-gray-600 dark:hover:text-gray-300">Panduan</a>
+              <a href="/remote-kits" className="text-sm mx-md-2 hover:text-gray-600 dark:hover:text-gray-300">Remote Kits</a>
+              <a href="/tools" className="text-sm mx-md-2 hover:text-gray-600 dark:hover:text-gray-300">Tools</a>
             </div>
           </div>
           <div className="flex items-center gap-3">
