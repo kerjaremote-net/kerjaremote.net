@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import { getCollection } from "astro:content";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Calendar, User, Globe } from "lucide-react";
+import copy from "@/data/copy.json";
 
 export async function getStaticPaths() {
   const guides = await getCollection("guides");
@@ -20,7 +21,7 @@ const { Content } = await guide.render();
 <Layout>
   <main class="min-h-screen pt-24 flex flex-col">
     {/* Hero Section */}
-    <section class="container mx-auto px-6 md:px-8 max-w-4xl mb-12">
+    <section class="container mx-auto px-6 md:px-8 max-w-6xl mb-12">
       <div class="flex items-center gap-2 mb-6">
         <a href="/guides" class="text-muted-foreground hover:text-primary text-sm transition-colors">Guides</a>
         <span class="text-muted-foreground text-sm">/</span>
@@ -44,8 +45,8 @@ const { Content } = await guide.render();
     </section>
 
     {/* Content */}
-    <article class="container mx-auto px-6 md:px-8 max-w-4xl prose prose-lg dark:prose-invert prose-headings:font-bold prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-xl mb-16">
-      <div class="aspect-video w-full rounded-xl overflow-hidden mb-10 not-prose">
+    <article class="container mx-auto px-6 md:px-8 max-w-6xl prose prose-lg dark:prose-invert prose-headings:font-bold prose-a:text-primary hover:prose-a:text-primary/80 prose-img:rounded-lg mb-16">
+      <div class="aspect-video w-full rounded-lg overflow-hidden mb-10 not-prose">
         <img 
           src={guide.data.image} 
           alt={guide.data.title} 
@@ -56,28 +57,28 @@ const { Content } = await guide.render();
     </article>
 
     {/* Soft CTA */}
-    <section class="container mx-auto px-6 md:px-8 max-w-4xl mb-20">
-      <div class="bg-muted/50 rounded-2xl p-8 md:p-12 border text-center">
-        <h2 class="text-2xl md:text-3xl font-bold mb-4">Siap untuk Memulai Karir Remote?</h2>
+    <section class="container mx-auto px-6 md:px-8 max-w-6xl mb-20">
+      <div class="bg-muted/50 rounded-lg p-8 md:p-12 border text-center">
+        <h2 class="text-2xl md:text-3xl font-bold mb-4">{copy.guides.softCta.title}</h2>
         <p class="text-muted-foreground mb-8 max-w-xl mx-auto">
-          Dapatkan akses ke tools, template, dan panduan eksklusif untuk mempercepat perjalanan karir remote Anda dengan Remote Kits.
+          {copy.guides.softCta.description}
         </p>
         <a href="/remote-kits">
           <Button size="lg" className="gap-2">
-            Lihat Remote Kits <ArrowRight className="w-4 h-4" />
+            {copy.guides.softCta.button} <ArrowRight className="w-4 h-4" />
           </Button>
         </a>
       </div>
     </section>
 
     <footer class="pb-32 pt-16 md:pb-8 md:pt-16 border-t mt-auto">
-      <div class="container mx-auto px-6 text-sm">
+      <div class="container mx-auto px-6 md:px-8 max-w-6xl text-sm">
         <div class="flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="flex flex-col gap-2">
                 <p class="text-muted-foreground">
-                    Brought to you by <a class="underline hover:text-primary" href="https://kerjaremote.net" target="_blank">@kerjaremote_net</a>
+                    {copy.footer.broughtToYouBy} <a class="underline hover:text-primary" href="https://kerjaremote.net" target="_blank">@kerjaremote_net</a>
                 </p>
-                <a href="/about" class="text-muted-foreground hover:text-primary underline">Submit as Author</a>
+                <a href="/about" class="text-muted-foreground hover:text-primary underline">{copy.footer.submitAsAuthor}</a>
             </div>
              <div class="flex items-center gap-2">
                 <a href="https://kerjaremote.net" target="_blank">

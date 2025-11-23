@@ -3,116 +3,56 @@ import Layout from "@/layouts/Layout.astro";
 import "@/styles/globals.css";
 import { Button } from "@/components/ui/button";
 import { Check, ArrowRight, Star, Zap, FileText, MessageSquare, Globe } from "lucide-react";
+import copy from "@/data/copy.json";
 
-const features = [
-  {
-    icon: Zap,
-    title: "GPT Samples",
-    description: "Akses ke custom GPT yang dirancang khusus untuk produktivitas kerja remote."
-  },
-  {
-    icon: MessageSquare,
-    title: "Prompt Library",
-    description: "Kumpulan prompt teruji untuk berbagai kebutuhan, dari coding hingga marketing."
-  },
-  {
-    icon: FileText,
-    title: "Templates & Roadmaps",
-    description: "Template dokumen dan roadmap karir yang siap pakai untuk mempercepat progress Anda."
-  }
-];
+const features = copy.remoteKits.whatsInside.features.map((f, i) => ({
+  ...f,
+  icon: [Zap, MessageSquare, FileText][i]
+}));
 
-const testimonials = [
-  {
-    name: "Budi Santoso",
-    role: "Freelance Developer",
-    content: "Remote Kits mengubah cara saya bekerja. Produktivitas meningkat 2x lipat!",
-    avatar: "https://placehold.co/100"
-  },
-  {
-    name: "Siti Aminah",
-    role: "Content Writer",
-    content: "Panduan dan prompt-nya sangat membantu saya mendapatkan klien internasional pertama.",
-    avatar: "https://placehold.co/100"
-  }
-];
+const testimonials = copy.remoteKits.testimonials.items.map(t => ({
+  ...t,
+  avatar: "https://placehold.co/100"
+}));
 
-const pricing = [
-  {
-    name: "Starter",
-    price: "Rp 149.000",
-    description: "Untuk pemula yang ingin memulai karir remote.",
-    features: [
-      "Akses ke 5 Basic GPTs",
-      "50+ Prompt Library",
-      "Basic Templates",
-      "Community Access"
-    ],
-    cta: "Beli Starter",
-    popular: false
-  },
-  {
-    name: "Pro",
-    price: "Rp 299.000",
-    description: "Paket lengkap untuk profesional remote.",
-    features: [
-      "Akses ke Semua 18 Premium GPTs",
-      "Unlimited Prompt Library",
-      "Advanced Roadmaps & Templates",
-      "Priority Support",
-      "Lifetime Updates"
-    ],
-    cta: "Beli Pro",
-    popular: true
-  }
-];
+const pricing = copy.remoteKits.pricing.plans.map((p, i) => ({
+  ...p,
+  popular: i === 1
+}));
 
-const faqs = [
-  {
-    q: "Apakah ini cocok untuk pemula?",
-    a: "Ya, Remote Kits dirancang untuk semua level, dari pemula hingga profesional."
-  },
-  {
-    q: "Bagaimana cara aksesnya?",
-    a: "Setelah pembayaran, Anda akan mendapatkan akses instan ke dashboard member."
-  },
-  {
-    q: "Apakah ada garansi uang kembali?",
-    a: "Kami menawarkan garansi 7 hari uang kembali jika Anda tidak puas."
-  }
-];
+const faqs = copy.remoteKits.faq.items;
 ---
 
 <Layout>
   <main class="min-h-screen pt-16 flex flex-col">
     {/* Hero Section */}
-    <section class="container mx-auto px-6 py-20 md:py-32 text-center max-w-4xl">
+    <section class="container mx-auto px-6 md:px-8 max-w-6xl py-20 md:py-32 text-center">
       <span class="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium mb-6 inline-block">
-        🚀 Solusi All-in-One Kerja Remote
+        {copy.remoteKits.hero.badge}
       </span>
       <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
-        Dari Nol Sampai <span class="text-primary">Siap Kerja Remote</span>
+        {copy.remoteKits.hero.title} <span class="text-primary">{copy.remoteKits.hero.titleHighlight}</span>
       </h1>
       <p class="text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-        Dapatkan akses ke tools, panduan, dan resource terbaik untuk membangun karir remote yang sukses dan stabil.
+        {copy.remoteKits.hero.description}
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <Button size="lg" className="gap-2">
-          Dapatkan Akses Sekarang <ArrowRight className="w-4 h-4" />
+          {copy.remoteKits.hero.ctaPrimary} <ArrowRight className="w-4 h-4" />
         </Button>
         <Button size="lg" variant="outline">
-          Lihat Demo
+          {copy.remoteKits.hero.ctaSecondary}
         </Button>
       </div>
     </section>
 
     {/* What's Inside */}
     <section class="bg-muted/30 py-20">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-16">Apa yang Anda Dapatkan?</h2>
+      <div class="container mx-auto px-6 md:px-8 max-w-6xl">
+        <h2 class="text-3xl font-bold text-center mb-16">{copy.remoteKits.whatsInside.title}</h2>
         <div class="grid md:grid-cols-3 gap-8">
           {features.map((feature) => (
-            <div class="bg-background p-8 rounded-xl border shadow-sm hover:shadow-md transition-all">
+            <div class="bg-background p-8 rounded-lg border shadow-sm hover:shadow-md transition-all">
               <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-6">
                 <feature.icon className="w-6 h-6" />
               </div>
@@ -126,11 +66,11 @@ const faqs = [
 
     {/* Testimonials */}
     <section class="py-20">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-16">Kata Mereka</h2>
+      <div class="container mx-auto px-6 md:px-8 max-w-6xl">
+        <h2 class="text-3xl font-bold text-center mb-16">{copy.remoteKits.testimonials.title}</h2>
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((t) => (
-            <div class="bg-muted/30 p-8 rounded-xl border">
+            <div class="bg-muted/30 p-8 rounded-lg border">
               <div class="flex gap-1 text-yellow-500 mb-4">
                 {[1,2,3,4,5].map(() => <Star className="w-4 h-4 fill-current" />)}
               </div>
@@ -150,14 +90,14 @@ const faqs = [
 
     {/* Pricing */}
     <section class="bg-muted/30 py-20" id="pricing">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-6">Pilih Paket Anda</h2>
+      <div class="container mx-auto px-6 md:px-8 max-w-6xl">
+        <h2 class="text-3xl font-bold text-center mb-6">{copy.remoteKits.pricing.title}</h2>
         <p class="text-center text-muted-foreground mb-16 max-w-xl mx-auto">
-          Investasi terbaik untuk masa depan karir Anda. Bayar sekali, akses selamanya.
+          {copy.remoteKits.pricing.description}
         </p>
         <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {pricing.map((plan) => (
-            <div class={`relative bg-background rounded-2xl border p-8 flex flex-col ${plan.popular ? 'border-primary shadow-lg ring-1 ring-primary' : 'shadow-sm'}`}>
+            <div class={`relative bg-background rounded-lg border p-8 flex flex-col ${plan.popular ? 'border-primary shadow-lg ring-1 ring-primary' : 'shadow-sm'}`}>
               {plan.popular && (
                 <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-medium">
                   Most Popular
@@ -187,8 +127,8 @@ const faqs = [
 
     {/* FAQ */}
     <section class="py-20">
-      <div class="container mx-auto px-6 max-w-3xl">
-        <h2 class="text-3xl font-bold text-center mb-12">Pertanyaan Umum</h2>
+      <div class="container mx-auto px-6 md:px-8 max-w-3xl">
+        <h2 class="text-3xl font-bold text-center mb-12">{copy.remoteKits.faq.title}</h2>
         <div class="space-y-6">
           {faqs.map((faq) => (
             <div class="border rounded-lg p-6">
@@ -202,25 +142,25 @@ const faqs = [
 
     {/* Final CTA */}
     <section class="py-20 bg-primary text-primary-foreground text-center">
-      <div class="container mx-auto px-6">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">Siap Mengubah Karir Anda?</h2>
+      <div class="container mx-auto px-6 md:px-8 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">{copy.remoteKits.finalCta.title}</h2>
         <p class="text-primary-foreground/80 text-lg mb-10 max-w-2xl mx-auto">
-          Bergabunglah dengan ribuan pekerja remote lainnya yang telah sukses dengan bantuan Remote Kits.
+          {copy.remoteKits.finalCta.description}
         </p>
         <Button size="lg" variant="secondary" className="gap-2">
-          Mulai Sekarang <ArrowRight className="w-4 h-4" />
+          {copy.remoteKits.finalCta.button} <ArrowRight className="w-4 h-4" />
         </Button>
       </div>
     </section>
 
     <footer class="pb-32 pt-16 md:pb-8 md:pt-16 border-t mt-auto">
-      <div class="container mx-auto px-6 text-sm">
+      <div class="container mx-auto px-6 md:px-8 max-w-6xl text-sm">
         <div class="flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="flex flex-col gap-2">
                 <p class="text-muted-foreground">
-                    Brought to you by <a class="underline hover:text-primary" href="https://kerjaremote.net" target="_blank">@kerjaremote_net</a>
+                    {copy.footer.broughtToYouBy} <a class="underline hover:text-primary" href="https://kerjaremote.net" target="_blank">@kerjaremote_net</a>
                 </p>
-                <a href="/about" class="text-muted-foreground hover:text-primary underline">Submit as Author</a>
+                <a href="/about" class="text-muted-foreground hover:text-primary underline">{copy.footer.submitAsAuthor}</a>
             </div>
              <div class="flex items-center gap-2">
                 <a href="https://kerjaremote.net" target="_blank">
