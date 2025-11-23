@@ -19,7 +19,7 @@ const remoteKits = [
     title: "Remote Prompt Guide",
     description: "Panduan lengkap memahami apa itu Remote Prompt Kit, cara memakai, dan bagaimana meningkatkan performa kerja remote.",
     icon: BookOpen,
-    link: "/guides/remote-prompt-guide"
+    link: "/panduan/remote-prompt-guide"
   },
   { 
     title: "Remote Navigator GPT (Free)",
@@ -35,7 +35,7 @@ const remoteKits = [
   },
 ];
 
-const guides = [
+const panduan = [
   { title: "How to start remote work", category: "Career", image: "https://placehold.co/600x400" },
   { title: "Best tools for 2024", category: "Tools", image: "https://placehold.co/600x400" },
   { title: "Managing time zones", category: "Productivity", image: "https://placehold.co/600x400" },
@@ -54,7 +54,7 @@ const guides = [
             <span class="text-primary">Remote Setup</span>
           </h1>
           <p class="text-lg text-muted-foreground max-w-xl">
-            Discover the best tools, guides, and equipment to make your remote work journey successful and comfortable.
+            Discover the best tools, panduan, and equipment to make your remote work journey successful and comfortable.
           </p>
           <div class="flex gap-4">
             <a href="/remote-kits">
@@ -101,12 +101,12 @@ const guides = [
       </div>
     </section>
 
-    {/* Guides */}
+    {/* panduan */}
     <section class="py-16">
         <div class="container mx-auto px-6 md:px-8 max-w-6xl">
             <div class="flex items-center justify-between mb-8">
-                <h2 class="text-2xl font-bold">Guides & Resources</h2>
-                <a href="/guides" class="text-primary hover:underline flex items-center gap-1">
+                <h2 class="text-2xl font-bold">panduan & Resources</h2>
+                <a href="/panduan" class="text-primary hover:underline flex items-center gap-1">
                     Read more <ArrowRight className="w-4 h-4" />
                 </a>
             </div>
@@ -124,7 +124,7 @@ const guides = [
 
                 {/* Guide Cards */}
                 <div class="flex flex-col gap-6">
-                    {guides.slice(0, 3).map(guide => (
+                    {panduan.slice(0, 3).map(guide => (
                         <div class="flex gap-4 items-center group cursor-pointer">
                             <div class="w-24 h-24 rounded-lg bg-muted overflow-hidden flex-shrink-0">
                                 <img src={guide.image} alt={guide.title} class="w-full h-full object-cover" />

@@ -14,7 +14,7 @@ The mission is simple:
 **Guide Indonesian users from “tidak tahu arah karier” → “siap kerja remote” → “stabil” → “bisa bikin digital product sendiri.”**
 
 KerjaRemote.net acts as:
-- a traffic generator (Guides)
+- a traffic generator (panduan)
 - a conversion engine (Remote Kits)
 - a credibility hub (Tools)
 - a trust builder (About)
@@ -38,7 +38,7 @@ A single landing page selling a full workflow package:
 - CTAs to checkout
 
 ### TRAFFIC ENGINE
-**Guides (Bahasa Indonesia SEO Articles)**  
+**panduan (Bahasa Indonesia SEO Articles)**  
 - Designed to capture high-intent queries  
 - Build topical authority for “kerja remote + AI productivity”  
 - Feed users directly into Remote Kits
@@ -63,7 +63,7 @@ A single landing page selling a full workflow package:
 Based on the 5-Layer CustomGPT ecosystem design :contentReference[oaicite:1]{index=1}:
 
 ### LAYER 0: KerjaRemote.net (Public + Free)
-- Guides → educate  
+- panduan → educate  
 - Tools → equip  
 - Remote Kits → convert  
 - Free GPTs (Navigator, CV Reviewer, Wellbeing Coach) → onboard
@@ -98,12 +98,12 @@ Minimal, clean, scalable structure:
 
 /
 /tools  
-/guides  
-/guides/{slug}  
+/panduan  
+/panduan/{slug}  
 /remote-kits  
 /about
 
-### GUIDES = SEO ACQUISITION ENGINE
+### panduan = SEO ACQUISITION ENGINE
 - Written in Bahasa Indonesia  
 - High intent (how to, remote career, productivity, AI workflows)  
 - Category clusters:
@@ -112,7 +112,7 @@ Minimal, clean, scalable structure:
   - Productivity & Tools
   - Portfolio & Branding
   - Client Acquisition
-- 6 cornerstone guides (V1)
+- 6 cornerstone panduan (V1)
 - Purpose: attract → educate → convert users to Remote Kits
 
 ### REMOTE KITS = MAIN PRODUCT
@@ -146,11 +146,11 @@ Homepage = the funnel in visual form:
    - 4 small grid cards  
    - All link to /remote-kits
 
-3) **Guides Section (Dominant)**
+3) **panduan Section (Dominant)**
    - Category chips  
    - Featured guide  
    - 4–6 guide cards  
-   - CTA → “Lihat Semua Guides”
+   - CTA → “Lihat Semua panduan”
 
 4) **Tools Preview**
    - 6 compact cards  
@@ -172,12 +172,12 @@ Homepage = the funnel in visual form:
 - Strong E-E-A-T via About  
 - Funnel-driven interlinking  
 - Homepage optimized for clarity and conversion  
-- Guides structured like SearchEngineJournal (media-style cards)
+- panduan structured like SearchEngineJournal (media-style cards)
 
 ============================================================
 8. COMPLETE FUNNEL SUMMARY
 ============================================================
-Google Search → Guides → Remote Kits → Free GPTs → Premium GPT Layers → KerjaRemote Academy.
+Google Search → panduan → Remote Kits → Free GPTs → Premium GPT Layers → KerjaRemote Academy.
 
 ============================================================
 9. ONE-LINER SUMMARY

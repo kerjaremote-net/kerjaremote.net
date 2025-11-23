@@ -8,8 +8,8 @@ import copy from "@/data/copy.json";
 import Footer from "@/components/Footer.astro";
 
 export async function getStaticPaths() {
-  const guides = await getCollection("guides");
-  return guides.map((guide) => ({
+  const panduan = await getCollection("panduan");
+  return panduan.map((guide) => ({
     params: { slug: guide.slug },
     props: { guide },
   }));
@@ -24,7 +24,7 @@ const { Content } = await guide.render();
     {/* Hero Section */}
     <section class="container mx-auto px-6 md:px-8 max-w-6xl mb-12">
       <div class="flex items-center gap-2 mb-6">
-        <a href="/guides" class="text-muted-foreground hover:text-primary text-sm transition-colors">Guides</a>
+        <a href="/panduan" class="text-muted-foreground hover:text-primary text-sm transition-colors">panduan</a>
         <span class="text-muted-foreground text-sm">/</span>
         <span class="text-primary text-sm font-medium">{guide.data.category}</span>
       </div>
@@ -60,13 +60,13 @@ const { Content } = await guide.render();
     {/* Soft CTA */}
     <section class="container mx-auto px-6 md:px-8 max-w-6xl mb-20">
       <div class="bg-muted/50 rounded-lg p-8 md:p-12 border text-center">
-        <h2 class="text-2xl md:text-3xl font-bold mb-4">{copy.guides.softCta.title}</h2>
+        <h2 class="text-2xl md:text-3xl font-bold mb-4">{copy.panduan.softCta.title}</h2>
         <p class="text-muted-foreground mb-8 max-w-xl mx-auto">
-          {copy.guides.softCta.description}
+          {copy.panduan.softCta.description}
         </p>
         <a href="/remote-kits">
           <Button size="lg" className="gap-2 bg-[linear-gradient(180deg,#454545_0%,#000000_50%,#454545_100%)] text-white hover:opacity-90 border-none btn-3d-black rounded-xl">
-            {copy.guides.softCta.button} <ArrowRight className="w-4 h-4" />
+            {copy.panduan.softCta.button} <ArrowRight className="w-4 h-4" />
           </Button>
         </a>
       </div>

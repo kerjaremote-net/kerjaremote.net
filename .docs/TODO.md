@@ -2,8 +2,8 @@
 
 ## V1 (Minimal Final)
 - [ ] Homepage
-- [ ] Guides index
-- [ ] 6 guides
+- [ ] panduan index
+- [ ] 6 panduan
 - [ ] GPT Packs index
 - [ ] 3 GPT Packs
 - [ ] GPT Pack detail page
@@ -18,7 +18,7 @@
 - [ ] Jobs
 - [ ] Resources hub
 - [ ] Multi-language
-- [ ] More guides
+- [ ] More panduan
 - [ ] More GPT Packs
 - [ ] Membership / subscription
 - [ ] Programmatic SEO pages

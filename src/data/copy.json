@@ -3,7 +3,7 @@
         "title": "KerjaRemote.net",
         "links": {
             "tools": "Tools",
-            "guides": "Guides",
+            "panduan": "panduan",
             "remoteKits": "Remote Kits"
         },
         "resources": "Resources",
@@ -13,8 +13,8 @@
         "broughtToYouBy": "Brought to you by",
         "submitAsAuthor": "Submit as Author"
     },
-    "guides": {
-        "title": "Guides & Resources",
+    "panduan": {
+        "title": "panduan & Resources",
         "subtitle": "Panduan lengkap untuk membangun karir remote, meningkatkan produktivitas dengan AI, dan mencapai kebebasan finansial.",
         "categories": [
             "All",

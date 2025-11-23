@@ -6,22 +6,22 @@ import { ArrowRight, Globe } from "lucide-react";
 import copy from "@/data/copy.json";
 import "@/styles/globals.css";
 
-const allGuides = await getCollection("guides");
-const sortedGuides = allGuides.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+const allpanduan = await getCollection("panduan");
+const sortedpanduan = allpanduan.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const featuredGuide = sortedGuides.find(guide => guide.data.featured) || sortedGuides[0];
-const otherGuides = sortedGuides.filter(guide => guide.slug !== featuredGuide.slug);
+const featuredGuide = sortedpanduan.find(guide => guide.data.featured) || sortedpanduan[0];
+const otherpanduan = sortedpanduan.filter(guide => guide.slug !== featuredGuide.slug);
 
-const categories = copy.guides.categories;
+const categories = copy.panduan.categories;
 ---
 
 <Layout>
   <main class="flex min-h-screen flex-col pt-24">
     <div class="container mx-auto px-6 md:px-8 max-w-6xl pb-16">
       <div class="mb-12">
-        <h1 class="text-4xl font-bold mb-4">{copy.guides.title}</h1>
+        <h1 class="text-4xl font-bold mb-4">{copy.panduan.title}</h1>
         <p class="text-muted-foreground text-lg max-w-2xl">
-          {copy.guides.subtitle}
+          {copy.panduan.subtitle}
         </p>
       </div>
 
@@ -41,7 +41,7 @@ const categories = copy.guides.categories;
       {/* Featured Guide */}
       {featuredGuide && (
         <div class="mb-16">
-          <a href={`/guides/${featuredGuide.slug}`} class="group block">
+          <a href={`/panduan/${featuredGuide.slug}`} class="group block">
             <div class="grid md:grid-cols-2 gap-8 items-center bg-muted/30 rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300">
               <div class="aspect-video md:aspect-[4/3] w-full overflow-hidden">
                 <img 
@@ -66,7 +66,7 @@ const categories = copy.guides.categories;
                   {featuredGuide.data.description}
                 </p>
                 <div class="flex items-center text-primary font-medium">
-                  {copy.guides.readMore} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  {copy.panduan.readMore} <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>
             </div>
@@ -76,8 +76,8 @@ const categories = copy.guides.categories;
 
       {/* Grid of Cards */}
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {otherGuides.map((guide) => (
-          <a href={`/guides/${guide.slug}`} class="group flex flex-col h-full">
+        {otherpanduan.map((guide) => (
+          <a href={`/panduan/${guide.slug}`} class="group flex flex-col h-full">
             <div class="bg-background rounded-lg border overflow-hidden hover:shadow-md transition-all duration-300 flex flex-col h-full">
               <div class="aspect-video overflow-hidden">
                 <img 
