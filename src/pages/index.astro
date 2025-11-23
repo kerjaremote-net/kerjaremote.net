@@ -57,7 +57,7 @@ const guides = [
           </p>
           <div class="flex gap-4">
             <a href="/remote-kits">
-              <Button size="lg" className="gap-2">
+              <Button size="lg" className="gap-2 bg-[linear-gradient(180deg,#454545_0%,#000000_50%,#454545_100%)] text-white hover:opacity-90 border-none">
                 Mulai dengan Remote Kits <ArrowRight className="w-4 h-4" />
               </Button>
             </a>
@@ -73,20 +73,20 @@ const guides = [
     </section>
 
     {/* Featured Remote Kits */}
-    <section class="bg-primary text-primary-foreground py-24">
+    <section class="py-24 text-white bg-[linear-gradient(180deg,#454545_0%,#000000_50%,#454545_100%)]">
       <div class="container mx-auto px-6 md:px-8 max-w-6xl">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {remoteKits.map((kit) => (
                 <div class="flex flex-col items-start group">
-                    <div class="mb-6 p-3 bg-primary-foreground/10 rounded-xl group-hover:bg-primary-foreground/20 transition-colors">
+                    <div class="mb-6 p-3 bg-white/10 rounded-xl group-hover:bg-white/20 transition-colors">
                         <kit.icon className="w-8 h-8" />
                     </div>
                     <h3 class="text-xl font-bold mb-3">{kit.title}</h3>
-                    <p class="text-primary-foreground/70 mb-8 leading-relaxed text-sm">
+                    <p class="text-white/70 mb-8 leading-relaxed text-sm">
                         {kit.description}
                     </p>
                     <a href={kit.link}>
-                        <Button variant="secondary" className="rounded-full px-6 font-bold mt-auto hover:bg-white/90">
+                        <Button className="px-6 font-bold mt-auto bg-[linear-gradient(180deg,#ffffff_0%,#d4d4d4_50%,#ffffff_100%)] text-black hover:opacity-90 border-none">
                             Explore {">"}
                         </Button>
                     </a>

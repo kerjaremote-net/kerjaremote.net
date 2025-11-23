@@ -26,7 +26,7 @@ export default function Nav() {
               </Button>
             </a>
             <a href="https://tally.so/r/wd8B1z" target="_blank">
-              <Button variant="default" size="sm" className="bg-black text-white hover:bg-gray-800">
+              <Button variant="default" size="sm" className="bg-[linear-gradient(180deg,#454545_0%,#000000_50%,#454545_100%)] text-white hover:opacity-90 border-none">
                 Subscribe
               </Button>
             </a>
