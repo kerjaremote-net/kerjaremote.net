@@ -75,3 +75,22 @@
   src: url("/fonts/GeistMono[wght].ttf") format("truetype");
   font-display: swap;
 }
+
+@layer utilities {
+  .btn-3d-black {
+    box-shadow: 0 4px 0 0 #222;
+    transition: all 0.1s;
+  }
+  .btn-3d-black:active {
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+  .btn-3d-white {
+    box-shadow: 0 4px 0 0 #999;
+    transition: all 0.1s;
+  }
+  .btn-3d-white:active {
+    transform: translateY(4px);
+    box-shadow: none;
+  }
+}
