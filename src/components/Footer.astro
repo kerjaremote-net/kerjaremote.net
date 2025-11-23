@@ -1,0 +1,74 @@
+---
+import { Globe } from "lucide-react";
+import { Button } from "@/components/ui/button";
+---
+
+<footer class="bg-background border-t pt-16 pb-8 mt-auto">
+  <div class="container mx-auto px-6 md:px-8 max-w-6xl">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+      <div class="col-span-2 md:col-span-1">
+        <a href="/" class="flex items-center gap-2 mb-4">
+           <!-- <img src="/images/icon.png" alt="KerjaRemote.net" class="w-8 h-8 rounded-full" /> -->
+           <span class="font-bold text-lg">KerjaRemote.net</span>
+        </a>
+        <p class="text-muted-foreground text-sm mb-4">
+          Membangun ekosistem kerja remote terbaik untuk talenta Indonesia.
+        </p>
+        <div class="flex gap-2">
+            <a href="https://x.com/kerjaremote_net" target="_blank" aria-label="Twitter">
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                    <svg
+                      role="img"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <title>X</title>
+                      <path
+                        d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
+                      ></path>
+                    </svg>
+                </Button>
+            </a>
+             <a href="https://kerjaremote.net" target="_blank" aria-label="Website">
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                    <Globe className="w-4 h-4" />
+                </Button>
+            </a>
+        </div>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-4">Platform</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/tools" class="text-muted-foreground hover:text-primary transition-colors">Tools</a></li>
+          <li><a href="/remote-kits" class="text-muted-foreground hover:text-primary transition-colors">Remote Kits</a></li>
+          <li><a href="/guides" class="text-muted-foreground hover:text-primary transition-colors">Guides</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold mb-4">Community</h3>
+        <ul class="space-y-2 text-sm">
+           <li><a href="https://discord.gg/SND5XmKH" target="_blank" class="text-muted-foreground hover:text-primary transition-colors">Discord</a></li>
+           <li><a href="https://x.com/kerjaremote_net" target="_blank" class="text-muted-foreground hover:text-primary transition-colors">Twitter / X</a></li>
+           <li><a href="https://tally.so/r/wd8B1z" target="_blank" class="text-muted-foreground hover:text-primary transition-colors">Submit Website</a></li>
+        </ul>
+      </div>
+       <div>
+        <h3 class="font-semibold mb-4">Company</h3>
+        <ul class="space-y-2 text-sm">
+           <li><a href="/about" class="text-muted-foreground hover:text-primary transition-colors">About</a></li>
+           <li><a href="mailto:hello@kerjaremote.net" class="text-muted-foreground hover:text-primary transition-colors">Contact</a></li>
+           <li><a href="/privacy" class="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
+           <li><a href="/terms" class="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+      <p>&copy; {new Date().getFullYear()} KerjaRemote.net. All rights reserved.</p>
+      <div class="flex items-center gap-4">
+         <p>Brought to you by <a href="https://kerjaremote.net" class="hover:text-primary underline">@kerjaremote_net</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
