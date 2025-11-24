@@ -9,7 +9,7 @@ featured: true
 
 ## Apa Itu KerjaRemote.net?
 
-Dunia kerja sedang bergerak cepat menuju model yang lebih fleksibel, global, dan berbasis skill. Menurut laporan Future of Jobs 2025–2030, lebih dari **22% pekerjaan global akan terdampak transformasi besar** dan banyak peran digital justru tumbuh pesat, termasuk role yang **remote-friendly** seperti data, AI, software, desain, hingga digital marketing.
+Dunia kerja sedang bergerak cepat menuju model yang lebih fleksibel, global, dan berbasis skill. Menurut laporan [Future of Jobs 2025–2030](#referensi), lebih dari **22% pekerjaan global akan terdampak transformasi besar** dan banyak peran digital justru tumbuh pesat, termasuk role yang **remote-friendly** seperti data, AI, software, desain, hingga digital marketing.
 
 Di tengah perubahan besar ini, KerjaRemote.net hadir sebagai **platform edukasi dan komunitas** yang membantu talenta Indonesia memahami peluang kerja remote, mempersiapkan skill yang relevan, dan membangun karier global tanpa harus pindah ke luar negeri.
 
@@ -48,7 +48,7 @@ Pertumbuhan sektor digital berdampak pada cara perusahaan merekrut talenta. Bany
 
 ## Tantangan Talenta Indonesia di Pasar Kerja Remote
 
-Peluang kerja remote yang terus berkembang memberikan ruang yang besar bagi talenta Indonesia, namun terdapat beberapa tantangan yang perlu diperhatikan. Data dari Future of Jobs Report menunjukkan bahwa 63 persen perusahaan global menilai kesenjangan skill sebagai hambatan utama dalam proses transformasi digital. Perusahaan membutuhkan kandidat yang mampu menggunakan teknologi modern, memahami data, beradaptasi dengan tool kolaborasi, dan memiliki literasi AI yang memadai. Kondisi ini menuntut pekerja Indonesia untuk terus meningkatkan kompetensi agar dapat bersaing di pasar global.
+Peluang kerja remote yang terus berkembang memberikan ruang yang besar bagi talenta Indonesia, namun terdapat beberapa tantangan yang perlu diperhatikan. Data dari [Future of Jobs Report](#referensi) menunjukkan bahwa 63 persen perusahaan global menilai kesenjangan skill sebagai hambatan utama dalam proses transformasi digital. Perusahaan membutuhkan kandidat yang mampu menggunakan teknologi modern, memahami data, beradaptasi dengan tool kolaborasi, dan memiliki literasi AI yang memadai. Kondisi ini menuntut pekerja Indonesia untuk terus meningkatkan kompetensi agar dapat bersaing di pasar global.
 
 Selain kesenjangan skill, perubahan kebutuhan industri juga menambah tekanan bagi pencari kerja. Laporan yang sama mencatat bahwa 39 persen skill yang ada saat ini diperkirakan berubah sebelum 2030. Artinya, talenta yang ingin masuk ke ekosistem kerja remote perlu memperbarui kemampuan mereka secara berkala agar tetap relevan. Perusahaan tidak hanya mencari kemampuan teknis, tetapi juga kompetensi non teknis seperti komunikasi lintas negara, koordinasi virtual, dan kemampuan bekerja dalam tim terdistribusi.
 
@@ -78,4 +78,8 @@ Perubahan pasar kerja global menunjukkan peningkatan kebutuhan terhadap talenta 
 Situasi tersebut menuntut pekerja untuk memahami standar kompetensi global, mengikuti perkembangan skill terbaru, serta mampu menavigasi proses rekrutmen yang sering kali dilakukan secara online. Banyak pekerja membutuhkan sumber belajar yang terstruktur, informasi pasar kerja yang relevan, serta panduan yang dapat membantu mereka meningkatkan kemampuan dan memasuki industri digital secara lebih percaya diri.
 
 KerjaRemote.net dibangun untuk tujuan tersebut. Situs ini berfungsi sebagai pusat informasi, edukasi, dan referensi bagi talenta Indonesia yang ingin mempelajari cara kerja remote, memahami skill yang dibutuhkan industri digital, dan mempersiapkan diri menghadapi proses rekrutmen global. Konten yang disajikan berfokus pada pengembangan skill, tren pekerjaan, praktik kerja online, serta panduan praktis yang dapat membantu pembaca membuat keputusan karier dengan lebih tepat. KerjaRemote.net dirancang agar menjadi sumber yang dapat diandalkan bagi siapa saja yang ingin memulai atau mengembangkan karier di ekosistem kerja remote.
+
+## Referensi
+
+1. [The Future of Jobs Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/) - World Economic Forum
 
