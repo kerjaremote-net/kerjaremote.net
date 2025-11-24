@@ -2,7 +2,7 @@
 title: "Pengenalan KerjaRemote.net"
 description: "Memahami misi, nilai, dan alasan lahirnya KerjaRemote.net sebagai pusat edukasi dan komunitas untuk karier digital remote di Indonesia."
 pubDate: 2025-02-10
-category: "General"
+category: "general"
 image: "/images/content/tentang-kerjaremote-net/thumbnail.png"
 featured: true
 ---
@@ -73,8 +73,9 @@ Selain kemampuan teknis, perusahaan juga menilai kompetensi non teknis seperti k
 
 ## Penutup
 
-Perubahan pasar kerja global menunjukkan peningkatan kebutuhan terhadap talenta digital yang memiliki kemampuan analitis, literasi teknologi, dan kompetensi kolaborasi jarak jauh. Laporan Future of Jobs 2025 sampai 2030 menunjukkan bahwa 39 persen skill yang ada saat ini akan berubah dan sektor digital seperti perangkat lunak, data, AI, keamanan siber, serta desain menjadi kelompok pekerjaan dengan pertumbuhan paling tinggi. Kondisi ini menciptakan peluang besar bagi pekerja dari berbagai negara, termasuk Indonesia, untuk berkontribusi dalam ekosistem kerja internasional selama mereka dapat memenuhi standar kompetensi yang dibutuhkan.
+Perubahan pasar kerja global menunjukkan peningkatan kebutuhan terhadap talenta digital yang memiliki kemampuan analitis, literasi teknologi, dan kompetensi kolaborasi jarak jauh. Laporan Future of Jobs 2025 sampai 2030 memperlihatkan bahwa sektor digital seperti data, perangkat lunak, AI, pemasaran digital, dan keamanan siber mengalami pertumbuhan yang tinggi. Kondisi ini menciptakan peluang besar bagi pekerja dari berbagai negara, termasuk Indonesia, untuk memanfaatkan pola kerja jarak jauh yang semakin banyak diterapkan perusahaan internasional.
 
-Di tengah perubahan tersebut, akses terhadap informasi yang jelas dan edukasi yang relevan menjadi faktor penting agar talenta Indonesia dapat bersaing secara efektif. Banyak pekerja membutuhkan panduan dalam memahami tren industri, mempelajari skill yang diminta perusahaan global, serta menavigasi proses rekrutmen remote.
+Situasi tersebut menuntut pekerja untuk memahami standar kompetensi global, mengikuti perkembangan skill terbaru, serta mampu menavigasi proses rekrutmen yang sering kali dilakukan secara online. Banyak pekerja membutuhkan sumber belajar yang terstruktur, informasi pasar kerja yang relevan, serta panduan yang dapat membantu mereka meningkatkan kemampuan dan memasuki industri digital secara lebih percaya diri.
 
-Untuk itulah KerjaRemote.net hadir. Tujuannya adalah menyediakan sumber pembelajaran yang terstruktur, berbasis data, dan relevan dengan kebutuhan pasar kerja modern. KerjaRemote.net membantu talenta Indonesia memahami dinamika industri digital, mempersiapkan diri menghadapi perubahan skill, dan memanfaatkan peluang karier remote yang terus berkembang di tingkat internasional.
+KerjaRemote.net dibangun untuk tujuan tersebut. Situs ini berfungsi sebagai pusat informasi, edukasi, dan referensi bagi talenta Indonesia yang ingin mempelajari cara kerja remote, memahami skill yang dibutuhkan industri digital, dan mempersiapkan diri menghadapi proses rekrutmen global. Konten yang disajikan berfokus pada pengembangan skill, tren pekerjaan, praktik kerja online, serta panduan praktis yang dapat membantu pembaca membuat keputusan karier dengan lebih tepat. KerjaRemote.net dirancang agar menjadi sumber yang dapat diandalkan bagi siapa saja yang ingin memulai atau mengembangkan karier di ekosistem kerja remote.
+

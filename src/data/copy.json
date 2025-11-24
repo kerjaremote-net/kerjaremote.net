@@ -129,32 +129,32 @@
     "about": {
         "header": {
             "title": "Tentang KerjaRemote.net",
-            "description": "Membangun ekosistem kerja remote terbaik untuk talenta Indonesia."
+            "description": "Komunitas kerja remote terbesar di Indonesia. Tempat belajar skill digital dan membangun karir global."
         },
         "mission": {
             "title": "Misi Kami",
             "p1": "KerjaRemote.net hadir dengan satu tujuan sederhana: <strong>Membimbing talenta Indonesia dari \"tidak tahu arah\" menjadi \"siap kerja remote\" hingga \"mandiri secara finansial\".</strong>",
-            "p2": "Kami percaya bahwa kesempatan kerja global harus bisa diakses oleh siapa saja, di mana saja. Melalui panduan, tools, dan komunitas, kami ingin menjembatani kesenjangan skill dan peluang bagi jutaan orang Indonesia."
+            "p2": "Kami percaya bahwa kesempatan kerja remote global harus bisa diakses oleh siapa saja. Melalui panduan kerja remote, tools produktivitas, dan komunitas yang suportif, kami menjembatani kesenjangan skill digital bagi jutaan orang Indonesia."
         },
         "story": {
             "title": "Kenapa Kami Ada?",
-            "p1": "Dunia kerja sedang berubah drastis. AI dan remote work bukan lagi masa depan, tapi masa kini. Kami melihat banyak talenta hebat yang tertinggal hanya karena kurangnya akses informasi dan mentorship yang tepat.",
-            "p2": "KerjaRemote.net adalah jawaban kami untuk tantangan tersebut. Sebuah hub sentral untuk belajar, berkembang, dan sukses di era digital."
+            "p1": "Dunia kerja sedang berubah drastis. Remote work dan AI membuka peluang baru bagi talenta Indonesia untuk bekerja di perusahaan global. Namun, banyak yang tertinggal karena kurangnya akses informasi tentang cara kerja remote yang benar.",
+            "p2": "KerjaRemote.net adalah solusi untuk tantangan tersebut. Sebuah platform edukasi dan komunitas untuk belajar skill remote, mendapatkan lowongan kerja remote, dan sukses di era digital."
         },
         "values": {
             "title": "Nilai Kami",
             "items": [
                 {
                     "title": "Indonesian First",
-                    "description": "Konten disesuaikan dengan konteks dan kebutuhan lokal."
+                    "description": "Konten disesuaikan dengan konteks lokal dan kebutuhan pekerja remote Indonesia."
                 },
                 {
                     "title": "Practicality",
-                    "description": "Fokus pada hal yang bisa langsung diterapkan, bukan teori semata."
+                    "description": "Fokus pada skill praktis yang bisa langsung diterapkan untuk mendapatkan kerja remote."
                 },
                 {
                     "title": "Community Driven",
-                    "description": "Tumbuh bersama komunitas, saling bantu dan berbagi."
+                    "description": "Tumbuh bersama komunitas kerja remote, saling berbagi tips dan peluang karir."
                 }
             ]
         },
@@ -166,7 +166,7 @@
         },
         "ctaAuthor": {
             "title": "Ingin Berkontribusi?",
-            "description": "Bagikan pengalaman dan keahlian Anda kepada ribuan pembaca kami. Jadilah bagian dari perubahan.",
+            "description": "Bagikan pengalaman kerja remote dan keahlian Anda kepada ribuan pembaca kami. Jadilah bagian dari perubahan ekosistem digital Indonesia.",
             "button": "Submit as Author"
         }
     }

@@ -2,22 +2,20 @@
 import { cn } from "@/lib/utils";
 import Nav from '@/components/Nav';
 
-const title =
-  "Kerja Remote Network";
-const description =
-  "Kerja Remote Network List Directory";
-const url = "https://placeholder.com";
+const { title = "Kerja Remote: Panduan, Tools & Lowongan Kerja Remote Indonesia", description = "Platform belajar kerja remote untuk pemula. Temukan lowongan kerja remote, tips kerja remote, dan skill digital yang dibutuhkan untuk sukses." } = Astro.props;
+const url = Astro.url;
 const image = "/public/preview.webp";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="index, follow" />
 
     <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="canonical" href={url} />
     <meta name="generator" content={Astro.generator} />
 
     <title>{title}</title>
@@ -27,6 +25,7 @@ const image = "/public/preview.webp";
     <meta property="og:image" content={image} />
     <meta property="og:url" content={url} />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content={title} />
@@ -37,9 +36,9 @@ const image = "/public/preview.webp";
       {
         "@context": "http://schema.org",
         "@type": "WebSite",
-        "url": "https://placeholder.com",
-        "name":   "Kerjaremote.net",
-        "description": "Kerja Remote Network Directory"
+        "url": "https://kerjaremote.net",
+        "name":   "KerjaRemote.net",
+        "description": "Platform Edukasi & Lowongan Kerja Remote Indonesia"
       }
     </script>
 
