@@ -35,6 +35,19 @@ const remoteKits = [
   },
 ];
 
+const panduanSection = {
+  title: "Belajar Skill Digital & Tips Kerja Remote",
+  linkText: "Lihat semua panduan",
+  link: "/panduan"
+};
+
+const featuredGuide = {
+  title: "Pengenalan KerjaRemote.net",
+  description: "Memahami misi, nilai, dan alasan lahirnya KerjaRemote.net sebagai pusat edukasi dan komunitas untuk karier digital remote di Indonesia.",
+  image: "/images/content/tentang-kerjaremote-net/thumbnail.png",
+  category: "Featured"
+};
+
 const panduan = [
   { title: "How to start remote work", category: "Career", image: "https://placehold.co/600x400" },
   { title: "Best tools for 2024", category: "Tools", image: "https://placehold.co/600x400" },
@@ -106,20 +119,20 @@ const panduan = [
     <section class="py-16">
         <div class="container mx-auto px-6 md:px-8 max-w-6xl">
             <div class="flex items-center justify-between mb-8">
-                <h2 class="text-2xl font-bold">Belajar Skill Digital & Tips Kerja Remote</h2>
-                <a href="/panduan" class="text-primary hover:underline flex items-center gap-1">
-                    Lihat semua panduan <ArrowRight className="w-4 h-4" />
+                <h2 class="text-2xl font-bold">{panduanSection.title}</h2>
+                <a href={panduanSection.link} class="text-primary hover:underline flex items-center gap-1">
+                    {panduanSection.linkText} <ArrowRight className="w-4 h-4" />
                 </a>
             </div>
             
             <div class="grid gap-8 lg:grid-cols-3">
                 {/* Featured Guide */}
                 <div class="lg:col-span-2 relative overflow-hidden rounded-xl bg-muted aspect-video lg:aspect-auto group border">
-                    <img src="https://placehold.co/800x600" alt="Featured" class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-105" />
+                    <img src={featuredGuide.image} alt={featuredGuide.title} class="absolute inset-0 w-full h-full object-cover transition-transform group-hover:scale-105" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8 text-white">
-                        <span class="bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium w-fit mb-4">Featured</span>
-                        <h3 class="text-3xl font-bold mb-2">The Ultimate Guide to Remote Work in 2025</h3>
-                        <p class="text-gray-200 line-clamp-2">Everything you need to know about taxes, visas, and finding the perfect job.</p>
+                        <span class="bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-medium w-fit mb-4">{featuredGuide.category}</span>
+                        <h3 class="text-3xl font-bold mb-2">{featuredGuide.title}</h3>
+                        <p class="text-gray-200 line-clamp-2">{featuredGuide.description}</p>
                     </div>
                 </div>
 
