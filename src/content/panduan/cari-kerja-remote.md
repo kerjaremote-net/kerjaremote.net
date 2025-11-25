@@ -7,7 +7,7 @@ image: "/images/content/tempat-cari-kerja-remote/thumbnail.png"
 featured: true
 ---
 
-# Kumpulan Situs Terbaik untuk Mencari Kerja Remote (Kurasi Lengkap & Aman 2025)
+## Kumpulan Situs Terbaik untuk Mencari Kerja Remote (Kurasi Lengkap & Aman 2025)
 
 Mencari kerja remote tidak sesulit dulu, tetapi masalah paling umum hari ini adalah **informasi yang berserakan dan tidak terkurasi**, sehingga banyak pencari kerja tersesat di job board abal-abal, link scam, atau situs yang sudah tidak aktif.
 
@@ -15,7 +15,7 @@ Artikel ini mengumpulkan **job board dan job aggregator yang kredibel**, aman, d
 
 ---
 
-## Cara Menggunakan Daftar Ini (Penting untuk Pemula)
+### Cara Menggunakan Daftar Ini (Penting untuk Pemula)
 
 Sebelum masuk ke list, pastikan kamu:
 1. **Fokus pada niche skill**  
@@ -31,7 +31,7 @@ Sebelum masuk ke list, pastikan kamu:
 
 ---
 
-# 🎯 1. Job Board Terbaik untuk Kerja Remote (Langsung dari Perusahaan)
+## 🎯 1. Job Board Terbaik untuk Kerja Remote (Langsung dari Perusahaan)
 
 Kategori ini cocok kalau kamu ingin **apply langsung ke perusahaan** (bukan platform freelance). Banyak peran full-time dan part-time.
 
@@ -39,7 +39,7 @@ Di bawah setiap link, aku tambahkan komentar editorial supaya kamu tahu keunggul
 
 ---
 
-## 🌍 Job Boards Umum (All Roles)
+### 🌍 Job Boards Umum (All Roles)
 
 ### 1. [Real Work From Anywhere](https://www.realworkfromanywhere.com/)  
 **Jenis:** Full remote global  
@@ -83,7 +83,7 @@ Di bawah setiap link, aku tambahkan komentar editorial supaya kamu tahu keunggul
 
 ---
 
-## 💻 Job Board Khusus Software / Developer
+### 💻 Job Board Khusus Software / Developer
 
 ### 1. [4 Day Week](https://4dayweek.io)  
 **Fokus:** Software, work-life balance  
@@ -123,7 +123,7 @@ Di bawah setiap link, aku tambahkan komentar editorial supaya kamu tahu keunggul
 
 ---
 
-## 🎨 Job Board Desain / Creative
+### 🎨 Job Board Desain / Creative
 
 ### 1. [Dribbble Jobs](https://dribbble.com/jobs?location=Anywhere)  
 **Fokus:** UI/UX & designer  
@@ -143,7 +143,7 @@ Di bawah setiap link, aku tambahkan komentar editorial supaya kamu tahu keunggul
 
 ---
 
-## 💸 Crypto / Web3
+### 💸 Crypto / Web3
 
 ### 1. [Crypto Jobs](https://crypto.jobs/?jobs=remote)  
 ### 2. [Crypto Jobs List](https://cryptojobslist.com/remote)  
@@ -155,7 +155,7 @@ Pasar crypto/Web3 lebih volatile, tapi banyak dicari. Sebagian besar perusahaan 
 
 ---
 
-## 🎓 Academic / Education / Nonprofit
+### 🎓 Academic / Education / Nonprofit
 
 ### 1. [HigherEdJobs](https://www.higheredjobs.com/search/remote.cfm)  
 **Fokus:** Pendidikan tinggi  
@@ -165,7 +165,7 @@ Pasar crypto/Web3 lebih volatile, tapi banyak dicari. Sebagian besar perusahaan 
 
 ---
 
-## 🛠 Engineering Khusus / Niche
+### 🛠 Engineering Khusus / Niche
 
 ### 1. [DevOpsJobs](https://devopsprojectshq.com)  
 **Fokus:** DevOps / SRE / Cloud  
