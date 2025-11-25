@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button";
 import "@/styles/globals.css";
 import websites from "@/data/websites.json";
 import Footer from "@/components/Footer.astro";
+import { Image } from "astro:assets";
+import thumbnail from "@/assets/images/content/tentang-kerjaremote-net/thumbnail.png";
 import { Notebook, BookOpen, Bot, Users, ArrowRight, Globe } from "lucide-react";
 
 const featuredTools = websites.slice(0, 6);
@@ -78,8 +80,8 @@ const panduan = [
           </div>
         </div>
         <a href="/panduan/tentang-kerjaremote-net" class="relative aspect-video rounded-xl overflow-hidden block hover:opacity-95 transition-opacity">
-          <img 
-            src="/images/content/tentang-kerjaremote-net/thumbnail.png" 
+          <Image 
+            src={thumbnail} 
             alt="Tentang KerjaRemote.net" 
             class="w-full h-full object-cover"
           />
