@@ -51,10 +51,10 @@ const featuredGuide = {
 };
 
 const panduan = [
-  { title: "How to start remote work", category: "Career", image: "https://placehold.co/600x400" },
-  { title: "Best tools for 2024", category: "Tools", image: "https://placehold.co/600x400" },
-  { title: "Managing time zones", category: "Productivity", image: "https://placehold.co/600x400" },
-  { title: "Remote taxes 101", category: "Finance", image: "https://placehold.co/600x400" },
+  { title: "Tempat Cari Kerja Remote", category: "Career", image: "/images/content/tempat-cari-kerja-remote/thumbnail.png", slug: "cari-kerja-remote" },
+  { title: "Best tools for 2024", category: "Tools", image: "https://placehold.co/600x400", slug: "#" },
+  { title: "Managing time zones", category: "Productivity", image: "https://placehold.co/600x400", slug: "#" },
+  { title: "Remote taxes 101", category: "Finance", image: "https://placehold.co/600x400", slug: "#" },
 ];
 ---
 
@@ -141,7 +141,7 @@ const panduan = [
                 {/* Guide Cards */}
                 <div class="flex flex-col gap-6">
                     {panduan.slice(0, 3).map(guide => (
-                        <div class="flex gap-4 items-center group cursor-pointer">
+                        <a href={`/panduan/${guide.slug}`} class="flex gap-4 items-center group cursor-pointer">
                             <div class="w-24 h-24 rounded-lg bg-muted overflow-hidden flex-shrink-0">
                                 <img src={guide.image} alt={guide.title} class="w-full h-full object-cover" />
                             </div>
@@ -149,7 +149,7 @@ const panduan = [
                                 <span class="text-xs font-medium text-primary">{guide.category}</span>
                                 <h4 class="font-semibold group-hover:text-primary transition-colors">{guide.title}</h4>
                             </div>
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>
