@@ -7,7 +7,7 @@ export default function Nav() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-8">
             <a href="/" className="text-xl flex items-center gap-2">
-              <img src="/images/icon.png" alt="KerjaRemote.net" className="w-12 h-12 rounded-full" />
+              <img src="/icon.png" alt="KerjaRemote.net" className="w-12 h-12 rounded-full" />
               <span className="hidden md:inline">KerjaRemote.net</span>
             </a>
             <div className="hidden md:flex items-center gap-4">
