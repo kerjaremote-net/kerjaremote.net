@@ -2,7 +2,7 @@
 title: "Kumpulan Situs Terbaik untuk Mencari Kerja Remote (Kurasi Lengkap & Aman 2025)"
 description: "Panduan paling lengkap untuk menemukan kerja remote melalui job board dan aggregator terpercaya. Kurasi editorial agar kamu tidak tenggelam dalam link spam."
 pubDate: 2025-02-10
-category: "remote-jobs"
+category: "kerja-remote"
 image: "/images/content/tempat-cari-kerja-remote/thumbnail.png"
 featured: true
 ---
