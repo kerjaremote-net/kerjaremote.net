@@ -4,7 +4,7 @@ description: "Memahami misi, nilai, dan alasan lahirnya KerjaRemote.net sebagai 
 pubDate: 2025-02-10
 category: "general"
 image: "/images/content/tentang-kerjaremote-net/thumbnail.png"
-featured: true
+featured: false
 ---
 
 ## Apa Itu KerjaRemote.net?
