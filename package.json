@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run optimize-images && astro build",
+    "build": "npm run optimize-images && astro build && cp dist/sitemap-index.xml dist/sitemap.xml",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "astro build && gh-pages -d dist",
+    "deploy": "astro build && cp dist/sitemap-index.xml dist/sitemap.xml && gh-pages -d dist",
     "optimize-images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
