@@ -4,7 +4,7 @@ description: "Panduan lengkap untuk pemula yang ingin memulai kerja remote dari 
 pubDate: 2025-11-27
 image: "/images/content/belajar-kerja-remote/thumbnail.png"
 category: "kerja-remote"
-featured: true
+featured: false
 ---
 
 Kerja remote kini menjadi salah satu jalur karier yang paling terbuka untuk semua orang—mulai dari mahasiswa, fresh graduate, ibu rumah tangga, sampai profesional berpengalaman. Namun ketika orang ingin mulai, pertanyaan yang selalu muncul adalah:
